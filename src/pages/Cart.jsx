@@ -67,7 +67,7 @@ export const Cart = () => {
                 </>
             ) : (
                 <div className="text-center">
-                    <h1>Cart {cartdata && cartdata.length === 0 ? 'Empty' : 'Data Not Available'}</h1>
+                    <div className='h1'>Cart {cartdata && cartdata.length === 0 ? 'Empty' : 'Data Not Available'}</div>
 
                     {cartdata && cartdata.length === 0 && (
                         <Link to="/tours">

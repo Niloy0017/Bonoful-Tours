@@ -20,6 +20,10 @@ const Cartitem = ({ item }) => {
             price: item.price,
             total: item.total
         }))
+        var cancelitem = {
+            id: item.id,
+        }
+        dispatch(deleteitem(cancelitem));
         navigate('/booking');
     }
 
