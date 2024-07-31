@@ -3,6 +3,7 @@ import React from 'react'
 export const Orderitem = ({item}) => {
     return (
         <div className='card mb-5'>
+            <div className='h3 mb-3'>{item.itemname}</div>
             <img src={item.image} className="img-fluid " alt="Generic placeholder image" />
 
             <div className="col-12 mb-3">
