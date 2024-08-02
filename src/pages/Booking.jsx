@@ -92,10 +92,10 @@ export const Booking = () => {
                     <p className="lead fw-normal mb-0">€{bookingSelector.total}</p>
                 </div>
 
-                <button type="button" className="btn btn-primary btn-lg me-2" onClick={handleBuy}>
+                <button type="button" className="btn btn-primary btn-lg me-2 mb-2" onClick={handleBuy}>
                     Buy
                 </button>
-                <button type="button" className="btn btn-primary btn-lg" onClick={cancelhandler}>
+                <button type="button" className="btn btn-primary btn-lg mb-2" onClick={cancelhandler}>
                     Cancel
                 </button>
 
