@@ -90,9 +90,9 @@ const Cartitem = ({ item }) => {
                         <p className="small text-muted cart-font">Person</p>
 
                         <div className="input-group col-12">
-                            <button className="btn btn-outline-secondary col-12 col-md-3" onClick={decrement}>-</button>
+                            <button className="text-white col-12 col-md-3 btn btn-info btn-lg" onClick={increment}>+</button>
                             <input type="number" className="text-center col-12 col-md-6" value={person} onChange={personhandler} />
-                            <button className="btn btn-outline-secondary col-12 col-md-3" onClick={increment}>+</button>
+                            <button className="text-white col-12 col-md-3 btn btn-info btn-lg" onClick={decrement}>-</button>
                         </div>
 
                     </div>
