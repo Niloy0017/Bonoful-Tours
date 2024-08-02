@@ -20,7 +20,7 @@ const Order = () => {
                     )
                     :
                     (
-                        <h1 className="text-center">Order History Empty</h1>
+                        <div className="text-center h1">Empty</div>
                     )
             }
         </div>
